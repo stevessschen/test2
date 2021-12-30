@@ -11,7 +11,7 @@ h = float(h)
 
 while(True):
     confirm_input=0
-    confirm_input = st.button('輸入確認')
+    confirm_input = st.button('輸入確認', key = "<uniquevalueofsomesort>")
     if confirm_input:    
         h = st.text_input('請輸入身高(M)？', '168')
         st.write('體重肥胖')
