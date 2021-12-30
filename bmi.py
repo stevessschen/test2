@@ -9,8 +9,6 @@ w = st.number_input('請輸入體重(KG)？')
 h = st.text_input('請輸入身高(M)？', '168')
 h = float(h)
 
-st.session
-
 while(True):
     h = st.text_input('請輸入身高(M)？', '168')
     
